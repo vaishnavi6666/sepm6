@@ -1,0 +1,23 @@
+node('node_name') {
+
+    stage('stage1') {
+
+        bat "echo stage1 is running"
+
+}
+    stage('stage2') {
+        
+        bat "echo stage2 is running"
+
+}
+    stage('stage3') {
+
+        bat "echo stage3 is running"
+
+}
+    stage('stage4') {
+    
+        bat "echo every stage successfully executed"
+    
+}
+}
